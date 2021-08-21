@@ -11,7 +11,7 @@ client = discord.Client()
 ### 배너 카테고리에 역할설정하세요 ! ! ! ###
 ##########################################
 
-token = 'ODc4NDU0NTk1NjYyMjgyNzUz.YSBamA.0v8LMBoVS3m2EMmJZ7D_3sBMLuQ' #봇토큰
+token = 'ODc4NDU0NTk1NjYyMjgyNzUz.YSBamA.vTc6Ia2JhsEmkPz0bjvVoNpj_PY' #봇토큰
 category_id = '872368787054284832' #배너채널 생성되는 카테고리 ID
 banner_role = '[YM] B A N N E R' #배너역할 이름
 logchannel_id = '878454983593427004' #개설 로그채널 ID
@@ -109,7 +109,7 @@ async def on_message(message):
         db.close()
 
   
-    if message.content.startswith('=맞배너'):
+    if message.content.startswith('야미야 맞배너'):
         learn = message.content.split(" ")
         try:
             invite = learn[1]
